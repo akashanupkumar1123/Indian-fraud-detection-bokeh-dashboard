@@ -1,0 +1,14 @@
+Purpose,Variable Name,Notes
+Training features (without ISO),X_train_res_scaled,"Scaled training set after SMOTE, no Isolation Forest features"
+Training features (with ISO + 2 features),X_train_with_iso,Scaled + ISO scores + ISO flags appended (26 features)
+Training labels (resampled),y_train_res,Binary labels for SMOTE-resampled training data
+Test features (without ISO),X_test_scaled,Test features with same scaling & features (24 cols)
+Test features (with ISO + 2 features),X_test_with_iso,Test features with added Isolation Forest insights
+Test labels (true y),y_test,Ground truth (fraud or not) for model evaluation
+Prediction probabilities (without ISO),y_prob_no_iso,"Used for AUC, classification report (vanilla model)"
+Prediction probabilities (with ISO),y_prob_iso,Used for custom-threshold classification (recall ↑)
+Final XGBoost model (without ISO),xgb_model_no_iso,"Baseline model, highest F1-score (XGBoost)"
+Final XGBoost model (with ISO + threshold),xgb_model_with_iso,"Model using Isolation Forest, tuned threshold"
+Threshold for high-recall fraud detection,THRESHOLD = 0.033,Chosen after threshold tuning for fraud recall
+SHAP values (without ISO),shap_values_no_iso,Explains predictions of baseline model
+SHAP values (with ISO),shap_values_with_iso,Explains predictions of enhanced model

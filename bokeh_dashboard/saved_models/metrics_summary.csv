@@ -1,0 +1,3 @@
+Model,Threshold,AUC,Precision,Recall,F1-Score
+XGBoost Without ISO,0.5,0.9891,0.9941,0.8242,0.9012
+XGBoost With ISO + Thresh=0.033,0.033,0.9894,0.2837,0.9353,0.4354
