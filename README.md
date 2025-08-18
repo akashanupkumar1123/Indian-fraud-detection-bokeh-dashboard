@@ -8,6 +8,13 @@
 An interactive **Bokeh** dashboard for detecting fraudulent financial transactions in India. It provides real-time classification and performance metrics visualization. Designed for easy deployment via **Render.com**.
 
 ---
+# Indian Fraud Detection Dashboard
+
+🚀 **Live Demo:** [Click here to view the dashboard](https://indian-fraud-detection-dashboard23.onrender.com/bokeh_dashboard)
+
+This project is a **Bokeh-based interactive dashboard** for detecting and analyzing fraudulent activities in Indian financial datasets. Users can explore real-time predictions, model metrics, and detailed summaries through an interactive web interface.
+
+
 
 ##  Project Overview
 
