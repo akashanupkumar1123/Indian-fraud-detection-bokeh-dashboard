@@ -8,6 +8,7 @@ from bokeh.layouts import column, row
 from bokeh.plotting import figure
 from bokeh.io import curdoc
 from bokeh.transform import cumsum
+from xgboost import XGBClassifier
 
 # === Base Path ===
 base_path = os.path.dirname(os.path.dirname(__file__))
@@ -15,9 +16,12 @@ base_path = os.path.dirname(os.path.dirname(__file__))
 # === Load Models & Data ===
 X_test_no_iso = joblib.load(os.path.join(base_path, "saved_models", "X_test_scaled.pkl"))
 X_test_with_iso = joblib.load(os.path.join(base_path, "saved_models", "X_test_with_iso.pkl"))
-model_no_iso = joblib.load(os.path.join(base_path, "saved_models", "xgb_model_without_iso.pkl"))
-model_with_iso = joblib.load(os.path.join(base_path, "saved_models", "xgb_model_with_iso_thresh_0033.pkl"))
 y_test = joblib.load(os.path.join(base_path, "saved_models", "y_test.pkl"))
+model_no_iso = XGBClassifier()
+model_no_iso.load_model(os.path.join(base_path, "saved_models", "xgb_model_without_iso.json"))
+
+model_with_iso = XGBClassifier()
+model_with_iso.load_model(os.path.join(base_path, "saved_models", "xgb_model_with_iso_thresh_0033.json"))
 
 # === Default Theme ===
 curdoc().theme = "dark_minimal"
