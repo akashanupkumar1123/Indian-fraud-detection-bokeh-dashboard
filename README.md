@@ -1,6 +1,6 @@
 # Indian Fraud Detection Dashboard
 
-![Indian Fraud Detection Dashboard](./indian_fraud_banner.png)
+![Indian Fraud Detection Dashboard](./fraud_banner.png)
 
 🚀 **Live Demo:** [Click here to view the dashboard](https://indian-fraud-detection-dashboard23.onrender.com/bokeh_dashboard)
 
