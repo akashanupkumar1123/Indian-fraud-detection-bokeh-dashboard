@@ -1,5 +1,9 @@
 # Indian Fraud Detection Dashboard
 
+![Indian Fraud Detection Dashboard](./indian_fraud_banner2.png)
+
+🚀 **Live Demo:** [Click here to view the dashboard](https://indian-fraud-detection-dashboard23.onrender.com/bokeh_dashboard)
+
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)]()
 [![Bokeh](https://img.shields.io/badge/Bokeh-v3.0-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
@@ -8,11 +12,6 @@
 An interactive **Bokeh** dashboard for detecting fraudulent financial transactions in India. It provides real-time classification and performance metrics visualization. Designed for easy deployment via **Render.com**.
 
 ---
-# Indian Fraud Detection Dashboard
-
-🚀 **Live Demo:** [Click here to view the dashboard](https://indian-fraud-detection-dashboard23.onrender.com/bokeh_dashboard)
-
-This project is a **Bokeh-based interactive dashboard** for detecting and analyzing fraudulent activities in Indian financial datasets. Users can explore real-time predictions, model metrics, and detailed summaries through an interactive web interface.
 
 
 
