@@ -31,29 +31,6 @@ This project delivers a clean, intuitive dashboard using **Bokeh Server**, enabl
 - Interactive visualizations with **Bokeh's dynamic plots**.
 - **Auto-updating statistics** on classification performance.
 - Quick deployment setup with Render's free tier.
-
----
-
-##  Repo Structure
-Indian_Fraud_Detection/
-│
-├── bokeh_dashboard/
-│ ├── main.py # Entry point for the Bokeh Server app
-│ ├── dashboard_utils.py # Helper functions (data loading, preprocessing)
-│ └── assets/ # Any images or static files used
-│
-├── models/
-│ └── fraud_model.pkl # Trained Fraud Detection Model
-│
-├── data/
-│ ├── raw/ # Raw transaction datasets (if allowed)
-│ └── processed/ # Cleaned and encoded data
-│
-├── requirements.txt # Pin dependencies (Python, Bokeh, scikit-learn, joblib, pandas)
-└── README.md # Project documentation
-
-
-
 ---
 
 ##  Getting Started
